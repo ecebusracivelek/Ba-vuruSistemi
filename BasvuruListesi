@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Başvurular</title>
+</head>
+<body>
+    <h1>Başvurular</h1>
+    <ul>
+        {% for basvuru in basvurular %}
+            <li>
+                Ad: {{ basvuru['ad'] }}<br>
+                Soyad: {{ basvuru['soyad'] }}<br>
+                Email: {{ basvuru['email'] }}<br>
+                Başvurulan Pozisyon: {{ basvuru['pozisyon'] }}<br>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
