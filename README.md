@@ -1,2 +1,2 @@
-# Ba-vuruSistemi
+# BasvuruSistemi
 Basit bir online başvuru sistemi
