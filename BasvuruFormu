@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Başvuru Formu</title>
+</head>
+<body>
+    <h1>Online Başvuru Formu</h1>
+    <form method="POST" action="/basvuru_gonder">
+        <label for="ad">Ad:</label>
+        <input type="text" id="ad" name="ad" required><br><br>
+
+        <label for="soyad">Soyad:</label>
+        <input type="text" id="soyad" name="soyad" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pozisyon">Başvurulan Pozisyon:</label>
+        <input type="text" id="pozisyon" name="pozisyon" required><br><br>
+
+        <input type="submit" value="Başvur">
+    </form>
+</body>
+</html>
